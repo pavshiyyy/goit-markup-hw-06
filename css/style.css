@@ -57,6 +57,7 @@ img {
 }
 
 .header-link {
+  font-family: Raleway, sans-serif;
   margin-right: 76px;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -125,19 +126,17 @@ img {
 
 .link {
   color: #4d5ae5;
-  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17em; /* 116.667% */
   letter-spacing: 0.54px;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
 .studio-li {
   padding: 24px 0;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -271,10 +270,12 @@ img {
   align-items: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin: 0 auto 48px;
 }
 
 .section-one-button {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -452,6 +453,7 @@ img {
 }
 
 .section-five-h {
+  text-align: center;
   font-size: 36px;
   line-height: 1.11;
   color: #2e2f42;
@@ -580,6 +582,10 @@ img {
 
 .footer-div-div {
   margin-right: 120px;
+}
+
+.footer-div-subscribe {
+  margin-left: 80px;
 }
 
 .social-media {
